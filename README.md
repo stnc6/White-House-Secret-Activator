@@ -1,4 +1,4 @@
-The mod only works on the host. Before using the second trigger, all players must enter the elevator!
+NOTE: The mod only works on the host. Before using the second trigger, all players must enter the elevator!
 
 Binds is in Options - Mod Keybinds.
 
