@@ -1,0 +1,35 @@
+{
+  "name": "White House Secret Activator",
+  "description": "Adds 3 keybinds to trigger White House secret events.",
+  "author": "[6IX]",
+  "version": "1",
+  "blt_version": 2,
+  "color" : "255 0 0",
+  "image": "icon.png",
+  "keybinds": [
+    {
+      "keybind_id": "vit_events_enable_painting",
+      "name": "[WHSA] Enable painting",
+      "description": "Triggers White House event: Enable painting",
+      "script_path": "lua/keybinds/enable_painting.lua",
+      "run_in_menu": false,
+      "run_in_game": true
+    },
+    {
+      "keybind_id": "vit_events_enable_elevator",
+      "name": "[WHSA] Enable elevator",
+      "description": "Triggers White House event: Enable elevator",
+      "script_path": "lua/keybinds/enable_elevator.lua",
+      "run_in_menu": false,
+      "run_in_game": true
+    },
+    {
+      "keybind_id": "vit_events_open_puzzle_vault",
+      "name": "[WHSA] Open puzzle vault",
+      "description": "Triggers White House event: Open puzzle vault",
+      "script_path": "lua/keybinds/open_puzzle_vault.lua",
+      "run_in_menu": false,
+      "run_in_game": true
+    }
+  ]
+}
